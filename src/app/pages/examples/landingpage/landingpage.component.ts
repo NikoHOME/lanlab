@@ -115,4 +115,14 @@ export class LandingpageComponent implements OnInit, OnDestroy {
     var body = document.getElementsByTagName("body")[0];
     body.classList.remove("landing-page");
   }
+  goToBottom(){
+    window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
+  }
+  goToTop(){
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
 }
+
+
+
