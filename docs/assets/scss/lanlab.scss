@@ -1,0 +1,117 @@
+/*
+=========================================================
+* BLK Design System Angular - v1.2.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/lanlab-angular
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+// Core
+
+@import "lanlab/custom/functions";
+@import "lanlab/bootstrap/functions";
+
+@import "lanlab/custom/variables";
+@import "lanlab/bootstrap/variables";
+
+@import "lanlab/custom/mixins";
+@import "lanlab/bootstrap/mixins";
+
+// Bootstrap components
+
+@import "lanlab/bootstrap/root";
+@import "lanlab/bootstrap/reboot";
+@import "lanlab/bootstrap/type";
+@import "lanlab/bootstrap/images";
+@import "lanlab/bootstrap/code";
+@import "lanlab/bootstrap/grid";
+@import "lanlab/bootstrap/tables";
+@import "lanlab/bootstrap/forms";
+@import "lanlab/bootstrap/buttons";
+@import "lanlab/bootstrap/transitions";
+@import "lanlab/bootstrap/dropdown";
+@import "lanlab/bootstrap/button-group";
+@import "lanlab/bootstrap/input-group";
+@import "lanlab/bootstrap/custom-forms";
+@import "lanlab/bootstrap/nav";
+@import "lanlab/bootstrap/navbar";
+@import "lanlab/bootstrap/card";
+@import "lanlab/bootstrap/breadcrumb";
+@import "lanlab/bootstrap/pagination";
+@import "lanlab/bootstrap/badge";
+@import "lanlab/bootstrap/jumbotron";
+@import "lanlab/bootstrap/alert";
+@import "lanlab/bootstrap/progress";
+@import "lanlab/bootstrap/media";
+@import "lanlab/bootstrap/list-group";
+@import "lanlab/bootstrap/close";
+@import "lanlab/bootstrap/modal";
+@import "lanlab/bootstrap/tooltip";
+@import "lanlab/bootstrap/popover";
+@import "lanlab/bootstrap/carousel";
+@import "lanlab/bootstrap/utilities";
+@import "lanlab/bootstrap/print";
+
+// Custom components
+
+@import "lanlab/custom/alerts.scss";
+@import "lanlab/custom/buttons.scss";
+@import "lanlab/custom/dropdown.scss";
+@import "lanlab/custom/footer.scss";
+@import "lanlab/custom/forms.scss";
+@import "lanlab/custom/images.scss";
+@import "lanlab/custom/modal.scss";
+@import "lanlab/custom/navbar.scss";
+@import "lanlab/custom/type.scss";
+@import "lanlab/custom/icons.scss";
+@import "lanlab/custom/tables";
+@import "lanlab/custom/checkboxes-radio";
+@import "lanlab/custom/fixed-plugin";
+@import "lanlab/custom/pagination.scss";
+@import "lanlab/custom/misc.scss";
+@import "lanlab/custom/rtl.scss";
+@import "lanlab/custom/input-group.scss";
+@import "lanlab/custom/example-pages.scss";
+@import "lanlab/custom/progress.scss";
+@import "lanlab/custom/badge.scss";
+@import "lanlab/custom/pills.scss";
+@import "lanlab/custom/tabs.scss";
+@import "lanlab/custom/info-areas.scss";
+
+// Sections
+@import "lanlab/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "lanlab/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "lanlab/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "lanlab/custom/vendor/plugin-bootstrap-switch.scss";
+@import "lanlab/custom/vendor/plugin-nouislider.scss";
+@import "lanlab/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "lanlab/custom/card";
+@import "lanlab/custom/cards/card-chart";
+@import "lanlab/custom/cards/card-map";
+@import "lanlab/custom/cards/card-user";
+@import "lanlab/custom/cards/card-task";
+@import "lanlab/custom/cards/card-plain";
+@import "lanlab/custom/cards/card-register";
+@import "lanlab/custom/cards/card-stats";
+@import "lanlab/custom/cards/card-chart";
+
+// Angular changes
+@import "lanlab/angular/tabs";
+@import "lanlab/angular/pills";
+@import "lanlab/angular/alerts";
+@import "lanlab/angular/datepicker";
+@import "lanlab/angular/example-pages";
