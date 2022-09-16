@@ -9,6 +9,17 @@
   label {
     color: rgba($white, 0.6);
   }
+  .card-custom{
+    all: inherit;
+    width:480px;
+    height:680px;
+    max-width: 480px;
+    display: block;
+    margin:0 auto;
+    flex: 0;
+    flex-basis: 0%;
+  }
+
 
   .card-title {
     margin-bottom: 0.75rem;
